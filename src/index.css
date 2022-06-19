@@ -1,0 +1,563 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+
+.cardHolder{
+  background-image: url("https://thumbs.dreamstime.com/z/diamonds-218077.jpg");
+  padding:30px 80px;
+  margin:0;
+
+}
+.white-background{
+  background-color:rgb(130, 131, 238,0.5);
+  padding:50px 50px 50px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5%;
+  margin-bottom: 10px;
+  max-width: 500px;;
+}
+h5 ,.margBottom30 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+ 
+}
+.white-background>img{
+  margin-bottom: 30px;
+  box-shadow: 10px 5px #4d4c4e;
+  border-radius: 50%;
+}
+.smallRoundLightBlue{
+  display:inline-block;
+  border-radius:50%;
+  background-color:rgb(150, 56, 64);
+  width:8px;
+  height:8px;
+  margin-right :3px;
+}
+.smallRoundBlue{
+  display:inline-block;
+  border-radius:50%;
+  background-color:blue;
+  width:8px;
+  height:8px;
+  margin-right :3px;
+}
+.inline{
+  display:inline;
+  margin-top: 50px;
+}
+.btnSucc{
+  margin-right: 5px;
+}
+.logo{
+  width:40px;
+}
+.notVisible{
+  display:none;
+}
+.lightBlueBorder{
+  border:5px solid rgb(135, 190, 223);
+  border-radius: 10%;
+}
+
+
+.border-bottom{
+  border-bottom: 1px solid black;
+}
+
+#invalid-passwords{
+  color:red;
+}
+/* .noMarginBottom{
+  margin-bottom: 1px;
+  font-size:12px;
+  color:white;
+  font-weight: bold
+  
+} */
+/* .diamondRow{
+  border:1px solid rgb(6, 5, 15);
+  background-color:rgb(149, 147, 152);
+} */
+.diamondContent>h5{
+  margin-bottom: 1px;
+  font-size: 10px;
+  color:rgb(230, 19, 19);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.diamondContent>a>p {
+  color:rgb(40, 14, 187);
+  font-weight:normal;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: underline;
+} 
+.smallPic{
+  width:200px;
+  margin-right: 5px;
+}
+.smallPic:hover{
+  position:fixed;
+  top:150px;
+  /* left:10px; */
+  width:600px;
+  z-index:2;
+}
+
+.diamondContent>p{
+  margin-bottom: 1px;
+  text-align: center;
+  color:rgb(39, 11, 116);
+  font-weight:bold;
+  font-size: 14px;
+}
+.logo{
+  width:100px
+}
+.fixed{
+  border:1px solid white;
+ 
+  margin: 15px 0;
+
+}
+.certChoose{
+  width:100px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h5Cert{
+  height: 5px;
+  /* margin-left: 20px; */
+  margin-top:20px;
+}
+#AGS{
+  height: 70px
+}
+.innerCol{
+  width:25%;
+}
+.modal-content{
+  height:740px;
+}
+
+.login {
+  max-width: 500px;
+  margin: 50px auto;
+
+}
+.fullWin{
+  width:100%;
+  margin:8px 0;
+  box-shadow: 5px 10px #888888;
+
+}
+.baseSlider{
+  position: relative;
+}
+.sliderOnSlider{
+  position: absolute;
+  left:0;
+  top:5px;
+}
+.pointer{
+   cursor: pointer; 
+}
+.userHeader{
+  background-color: rgb(21, 21, 226);
+  color:white;
+  font-size: 18px;
+  
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  
+
+}
+#footer {
+  position: absolute;
+  width:100%;
+  bottom: 5;
+  padding:10px;
+  background-color: rgb(55, 137, 230);
+  width: calc(100% - 30px);
+ 
+}
+#border{
+  border:1px solid rgb(63, 80, 228);
+}
+.from{
+  padding:20px;
+  margin-top: 5px;
+  display: inline-block;
+  border-radius: 30px;
+  color:white;
+  background-color: rgb(89, 185, 89);
+  font-size: 18px;
+  margin-left:auto;
+  padding: 10px 15px;
+}
+.to {
+  padding:20px;
+  margin-top: 5px;
+  display:inline-block;
+  border-radius: 30px;
+  color:white;
+  background-color: rgb(74, 120, 206);
+  font-size: 18px;
+  margin-right:auto;
+  padding: 10px 15px;
+}
+.messageRow{
+  width:50%
+}
+.body {
+  margin: 0, 40px;
+  overflow-y:scroll;
+  height:65vh;
+}
+.deleteMessage:hover{
+  cursor: pointer;
+}
+#alertAddToCart{
+  
+  position:fixed;
+  width:100%;
+  z-index: 2;
+  bottom:-13px;
+  left:0px;
+}
+.excelImage:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/*
+ * Creditly Gray Theme (gray-theme)
+ */
+
+.creditly-wrapper.gray-theme .card_type {
+  float: right;
+  font-style: italic;
+  font-weight: normal !important;
+}
+
+.creditly-wrapper.gray-theme h3 {
+  background: #424242;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px;
+  margin: 0;
+  text-transform: uppercase;
+  height: 20px;
+}
+
+.creditly-wrapper.gray-theme .credit-card-wrapper {
+  padding: 30px 0;
+}
+
+.creditly-wrapper.gray-theme {
+  background: #E9E9E9;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.creditly-wrapper.gray-theme .form-control:focus {
+  border-color: #888;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+}
+
+.creditly-wrapper.gray-theme .form-control {
+  border-color: #BBB;
+  border-radius: 0px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+}
+
+.creditly-wrapper.gray-theme .control-label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.creditly-wrapper.gray-theme .col-sm-8,
+.creditly-wrapper.gray-theme .col-sm-4 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/*
+ * Creditly Blue Theme (blue-theme)
+ */
+
+.creditly-wrapper.blue-theme {
+  background-color: rgba(66, 139, 202, 0.8);
+  border-color: #357ebd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  width: 350px;
+  min-height: 216px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: white;
+
+  background-image: -webkit-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -moz-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -ms-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -o-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -webkit-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -moz-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -ms-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -o-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+}
+
+.creditly-wrapper.blue-theme .credit-card-wrapper {
+  padding: 40px 30px;
+}
+
+.creditly-wrapper.blue-theme .credit-card-wrapper .controls {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+/*
+ * Bootstrap stuff
+ */
+
+.creditly-wrapper input.form-control.has-error {
+  outline: none;
+  border-color: #ff7076;
+  border-top-color: #ff5c61;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2),0 1px 0 rgba(255,255,255,0),0 0 4px 0 rgba(255,0,0,0.5);
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2),0 1px 0 rgba(255,255,255,0),0 0 4px 0 rgba(255,0,0,0.5);
+  -ms-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2),0 1px 0 rgba(255,255,255,0),0 0 4px 0 rgba(255,0,0,0.5);
+  -o-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2),0 1px 0 rgba(255,255,255,0),0 0 4px 0 rgba(255,0,0,0.5);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.2),0 1px 0 rgba(255,255,255,0),0 0 4px 0 rgba(255,0,0,0.5);
+}
+
+.creditly-wrapper .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.creditly-wrapper .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+}
+
+.creditly-wrapper label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.creditly-wrapper input:focus::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+.creditly-wrapper input:focus:-moz-placeholder {
+    color: #ccc;
+}
+
+.creditly-wrapper input:focus::-moz-placeholder {
+    color: #ccc;
+}
+
+.creditly-wrapper input:focus:-ms-input-placeholder {
+    color: #ccc;
+}
+
+.creditly-wrapper .col-sm-8 {
+  width: 66.6666666666666%;
+}
+
+.creditly-wrapper .col-sm-4 {
+  width: 33.3333333333333%;
+}
+
+.creditly-wrapper .col-sm-8,
+.creditly-wrapper .col-sm-4 {
+  float: left;
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.creditly-wrapper .form-group {
+  width: 100%;
+  display: table;
+}
+
+.creditly-wrapper .first-row {
+  margin-bottom: 20px;
+}
+
+.creditly-wrapper .card-type {
+  margin-top: 10px;
+  float: right;
+}
+
+/**
+ * Button CSS
+ */
+
+.creditly-blue-theme-submit {
+  overflow: hidden;
+  display: inline-block;
+  visibility: visible!important;
+  background-image: -webkit-linear-gradient(#28a0e5,#015e94);
+  background-image: -moz-linear-gradient(#28a0e5,#015e94);
+  background-image: -ms-linear-gradient(#28a0e5,#015e94);
+  background-image: -o-linear-gradient(#28a0e5,#015e94);
+  background-image: -webkit-linear-gradient(#28a0e5,#015e94);
+  background-image: -moz-linear-gradient(#28a0e5,#015e94);
+  background-image: -ms-linear-gradient(#28a0e5,#015e94);
+  background-image: -o-linear-gradient(#28a0e5,#015e94);
+  background-image: linear-gradient(#28a0e5,#015e94);
+  -webkit-font-smoothing: antialiased;
+  border: 0;
+  padding: 1px;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  -ms-box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  -o-box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.creditly-blue-theme-submit span {
+  display: block;
+  position: relative;
+  padding: 0 12px;
+  height: 30px;
+  line-height: 30px;
+  background: #1275ff;
+  background-image: -webkit-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -moz-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -ms-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -o-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -webkit-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -moz-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -ms-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: -o-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  background-image: linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+  -ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+  -o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.creditly-gray-theme-submit {
+  background: #2FB4E9;
+  border: 0;
+  color: #FFF;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 40px;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+
+.creditly-gray-theme-submit:hover {
+  background: #5dc5ee;
+}
+
+.creditly-gray-theme-submit:active {
+  background: #169acf;
+  border: 0;
+  outline: 0;
+}
+
+.creditly-gray-theme-submit:focus {
+  background: #5dc5ee;
+}
